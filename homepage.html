@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Home Page</title>
+    <style>
+        .table-container {
+            display: flex; /* Use flexbox to arrange tables side by side */
+        }
+
+        .table-container table {
+            margin: 30px; /* Add some space between tables */
+            border-collapse: collapse; /* Optional: Collapse borders for a cleaner look */
+        }
+
+        .table-container td, .table-container th {
+            padding: 8px; /* Optional: Add some padding to cells */
+        }
+
+        .container{
+            width: auto;
+            position: relative;
+        }           /*Setting the position of the whole container*/
+
+        .container img{
+            width: 100%;
+            display: block;
+            opacity: 90%;               /*Setting of the image*/
+        }
+        .write{
+            position : absolute;
+            bottom: 10px;               /*Settings of the text written on the image*/
+            left: 20px;  
+        }
+
+        .me{
+            border-radius: 90%;      /*setting my own image*/
+        }
+    </style>
+</head>
+<body>
+    <h3  >
+    <div class="table-container" style="background-color:darkorange;">
+        <table>
+            <tr>
+                <th style="font-size: xx-large;">My Home Page</th>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th><a href="homepage.html">HOME</a></th>
+                <th><a href="#">ABOUT US</a></th>
+                 <th><a href="#">CONTACT US</a></th>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th><a href="#">LOG IN</a></th>
+                <th><a href="#">SIGN UP</a></th>
+            </tr>
+        </table>
+    </div></h1>
+    <div class="container">
+        <img src="travel.jpg" height="500px">
+        <div class="write">
+            <h3 style="color: cyan;">This is my homepage of the internship provided by <h1 style="color: blue;">CodSoft</h1> 
+            </h3>
+        </div>
+    </div>
+    <p align="right" style="color: rgb(7, 54, 156);">
+    This is a normal internship programme usder CodSoft company which is really amazing and is literally enjoyable. <br>
+    If i talk about me , My name is Rohan Rakshit and I am a B.Tech IIIrd Year student persuing from Amity University Madhya Pradesh Gwalior. This is a normal home front page</body></p><br><br><br>
+    <center><a href="https://www.linkedin.com/in/rohan-rakshit-6b7607252/">Connect with me on Linkeden</a>
+    <img src="me.jpg" class="me" height="200px">
+    <a href="https://www.instagram.com/rohanrakshit16/">Connect with me on instagram</a>
+    </center>
+    <br><br><br><br>
+    <footer align="right" color="grey" style="background-color: DarkSalmon; height: 25px; font-size: large; "><strong>My CodSoft HomePage</strong></footer>
+</body>
+</html>
